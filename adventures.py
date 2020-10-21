@@ -1,3 +1,4 @@
+#test
 #Adventure version 2 makes it so if you pick an invalid option, it does not exit like version 1 does
 #Adventure version 3 adds a second set of choices if you choose the correct
 def adventurev1():
