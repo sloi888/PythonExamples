@@ -5,7 +5,9 @@ def multiply(a, b):
 def double(a):
     return a * 2
 def square(a):
+    # ** mean exponentiation
     return a ** 2
+# the quadratic functions return multiple values
 def quadratic(a, b, c):
     x1 = ((b * -1) + ((b * b - 4 * a * c)) ** 0.5) / (2 * a)
     x2 = ((b * -1) - ((b * b - 4 * a * c)) ** 0.5) / (2 * a)
@@ -35,3 +37,4 @@ print(double(add(5, 10) + multiply(2, 5)))
 # multiply 2 * 5 = 10
 # + operator 15 + 10 = 25
 # double 25 * 2 = 50
+print(square(double(len(input().split()))))
