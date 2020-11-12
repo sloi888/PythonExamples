@@ -1,11 +1,10 @@
 # adapted from https://stackoverflow.com/questions/11747254/python-brute-force-algorithm Martjin Pieters' answer
 import random
 from itertools import chain, product
-global guess
 
 length = 5
 pasw = ''
-characters = 'abcdefghijklmnopqrstuvwxyz' # lowercase only to save time
+characters = 'abcdefghijklmnopqrstuvwxyz'  # lowercase only to save time
 
 # create a random password designated length
 for x in range(length):
@@ -21,7 +20,7 @@ def bruteforce(charset, maxlength):
 attempts = 0
 for attempt in bruteforce(characters, length):
     # comment out the print line to make it run much faster
-    print(attempt)
+    # print(attempt)
     attempts += 1
     if attempt == pasw:
         break

@@ -1,5 +1,8 @@
 # turtle documentation: https://docs.python.org/3/library/turtle.html
 
+# Challenges: add a command to make the turtle draw a circle of a specified diameter
+# add a command to change the turtle's color
+# add a command to tell the turtle to move to a certain set of coordinates
 import turtle
 
 t = turtle.Turtle()
