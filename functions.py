@@ -34,11 +34,22 @@ def circleArea(radius):
     area = 3.14159 * (radius ** 2)
     return area
 
-x = 2
-y = double(x)
-print(x)
-print(y)
 
+def intInput(prompt):
+    while True:
+        try:
+            x = int(input(prompt))
+            return x
+        except:
+            print("Please enter an integer.")
+
+
+print(intInput("Give me an integer. "))
+# x = 2
+# y = double(x)
+# print(x)
+# print(y)
+#
 # print(add(1, 2))  # 3
 # print(multiply(2, 5))  # 20
 # print(double(20))  # 40
