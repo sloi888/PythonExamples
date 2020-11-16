@@ -12,6 +12,18 @@ def turtleStar(size):
         t.forward(size)
         t.right(144)
 
+
+def turtleCircle(radius):
+    circleConstant = 0.00873438728
+    t.speed(0)
+    for i in range(360):
+        t.forward(radius * circleConstant)
+        t.right(1)
+        if i == 180:
+            print(t.position())
+    t.speed(6)
+
+
 def askInput():
     # Keep asking for input until they give us valid input
     # we exit the function when we return some value, which will only happen when the input is validated.
