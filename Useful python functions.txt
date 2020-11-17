@@ -1,0 +1,28 @@
+List of common python commands and uses for study group
+print(text or numbers)
+input(prompt)
+conversion functions
+str()
+int()
+float()
+complex()
+
+min(list) # minimum value of a list
+max(list) # maximum value of a list
+abs(number) # absolute value of a number
+type(variable) # returns the type of the object
+sorted(list) # returns a sorted list/dictionary
+reversed(list) # returns a reversed list
+round(float) # returns a rounded number to the nearest int
+len(text or numbers)
+range(length) or range(start, end(not included), step) # useful for doing things multiple times
+str.split(delimiter) # returns a list of strings, split up as dictated by the delimiter
+str.replace(old, new) # returns a string that has replaced a piece of a string with a new piece of a string
+str.upper() # returns uppercase version of the string
+str.lower() # returns lowercase version of the string, useful for handling user input
+list.append() # add an entry to a list
+file = open(filepath, "r"/"w"/"a"/"x") # interact with files
+file.read() # gives a string that contains the contents of a file, must be in "r"ead mode
+file.readlines() # gives a list of strings where each element is a line in the file must be in "r"ead mode
+file.write() # writes to a file, must be in w"r"ite or "a"ppend mode
+file.close() # save and close a file
