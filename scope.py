@@ -14,15 +14,17 @@ def outer_function():
     inner_function()
     # then the inner function is exited, a in this function is still 20
     print('a =', a)  # this is printed second
+    return a
     # so it prints a = 20
 
 
 # a in the global scope is set to 10
 a = 10
 # then we get into the outer function
-outer_function()
+outer_a = outer_function()
 # after exiting the outer function, a in the global scope is still 10
 print('a =', a)  # this is printed third
+print('outer_a = ', outer_a)
 # so it prints a = 10
 
 

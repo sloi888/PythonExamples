@@ -25,7 +25,6 @@ print(jsonData == jsonData2)  # double checking that they are indeed exactly the
 
 
 
-# dump and dumps take either structured data or a string as input, and output to a file
 # dump takes the structured json data and puts it in a file
 # https://www.geeksforgeeks.org/json-dump-in-python/?ref=lbp
 dumpFile = open("dump.json", "w")  # open the file we are going to be writing to
@@ -37,6 +36,7 @@ dumpFile.close()  # save and close the file
 
 
 # dumps takes structured data and returns what it looks like as a string
+# opposite of loads
 # https://www.geeksforgeeks.org/json-dumps-in-python/?ref=lbp
 
 dumpsOutput = json.dumps(jsonData, indent=4)  # take the document string and write it to the new file
@@ -45,3 +45,4 @@ dumpsFile.write(dumpsOutput)
 dumpsFile.close()  # save and close the file
 
 
+input()
