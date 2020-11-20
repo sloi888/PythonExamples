@@ -8,7 +8,7 @@ from cryptography.fernet import Fernet
 key = open("secret.key").readline()
 print(key)
 
-ticFile = open("Tic tac toe.py", "r")
+ticFile = open("../Tic tac toe.py", "r")
 ticString = ticFile.read()
 ticFile.close()
 print(ticString)

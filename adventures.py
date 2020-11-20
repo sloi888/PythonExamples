@@ -9,6 +9,8 @@ def adventurev1():
         print("You found a cake and ate it.")
     else:
         print("Please say left or right")
+
+
 def adventurev2():
     cont = False
     while cont == False:
