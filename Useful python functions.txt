@@ -14,7 +14,7 @@ type(variable) # returns the type of the object
 sorted(list) # returns a sorted list/dictionary
 reversed(list) # returns a reversed list
 round(float) # returns a rounded number to the nearest int
-len(text or numbers)
+len(text or numbers or list)
 range(length) or range(start, end(not included), step) # useful for doing things multiple times
 str.split(delimiter) # returns a list of strings, split up as dictated by the delimiter
 str.replace(old, new) # returns a string that has replaced a piece of a string with a new piece of a string

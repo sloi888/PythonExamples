@@ -1,6 +1,5 @@
-#test
-#Adventure version 2 makes it so if you pick an invalid option, it does not exit like version 1 does
-#Adventure version 3 adds a second set of choices if you choose the correct
+# Adventure version 2 makes it so if you pick an invalid option, it does not exit like version 1 does
+# Adventure version 3 adds a second set of choices if you choose the correct
 def adventurev1():
     answer = input("There is a fork in the road, go left or right?")
     if answer == "left":
@@ -23,6 +22,8 @@ def adventurev2():
             cont = True
         else:
             print("Please say left or right")
+
+
 def adventurev3():
     cont = False
     while cont == False:

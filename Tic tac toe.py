@@ -15,7 +15,7 @@ def updateBoard():
     # as long as they also say that they are using the global 'board' variable
     global board
     # backslashes let you make a multiline string
-    board = f' {spaces[0]} | {spaces[1]} | {spaces[2]}\n' \ 
+    board = f' {spaces[0]} | {spaces[1]} | {spaces[2]}\n' \
             f'-----------\n' \
             f' {spaces[3]} | {spaces[4]} | {spaces[5]}\n' \
             f'-----------\n' \

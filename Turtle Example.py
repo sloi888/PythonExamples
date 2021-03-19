@@ -12,6 +12,10 @@ def turtleStar(size):
         t.forward(size)
         t.right(144)
 
+def turtleSquare(sideLength):
+    for i in range(4):
+        t.forward(sideLength)
+        t.right(90)
 
 def turtleCircle(radius):
     circleConstant = 0.00873438728
@@ -64,6 +68,10 @@ def doCommand(command, argument):
         t.forward(int(argument))
     elif command == "star" or command == "s":
         turtleStar(int(argument))
+    elif command == "circle":
+        t.circle(int(argument))
+    elif command == "square":
+        turtleSquare(int(argument))
     else:
         print("Please say 'forward', 'left', 'right', or 'star' in addition to a number. Or say 'exit' to quit.")
 

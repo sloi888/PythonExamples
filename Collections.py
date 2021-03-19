@@ -2,6 +2,8 @@ list1 = [1,2,3,4]
 tuple1 = (4,5,6) # tuples cannot be changed, only replaced
 list1[1] = 8
 print(list1)
+list1.append(5)
+print(list1)
 tuple1 = (4,8,6)
 print(tuple1)
 

@@ -36,7 +36,6 @@ A = int(input("What is your born year: "))
 
 years(1900)
 
-adduser (name  )
 
 def erangaf(A):
     B = 2020

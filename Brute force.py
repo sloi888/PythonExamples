@@ -1,7 +1,9 @@
 # adapted from https://stackoverflow.com/questions/11747254/python-brute-force-algorithm Martjin Pieters' answer
 import random
+from timeit import default_timer as timer
 from itertools import chain, product
 
+start = timer()
 length = 5
 pasw = ''
 characters = 'abcdefghijklmnopqrstuvwxyz'  # lowercase only to save time
@@ -24,4 +26,6 @@ for attempt in bruteforce(characters, length):
     attempts += 1
     if attempt == pasw:
         break
+end = timer()
 print(f"Password was {pasw}, took {attempts} attempts")
+print(f"Took {end - start} seconds")
