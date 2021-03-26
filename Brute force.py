@@ -24,6 +24,7 @@ for attempt in bruteforce(characters, length):
     # comment out the print line to make it run much faster
     # print(attempt)
     attempts += 1
+    # print(attempt)
     if attempt == pasw:
         break
 end = timer()
