@@ -13,5 +13,9 @@ if age >= 18:
     print("adult")
 elif age > 12 and age < 18:
     print("teen")
+elif age > 65:
+    print("senior citizen")
+elif age > 35 and age < 55:
+    print("midlife crisis")
 else:
     print("child")
