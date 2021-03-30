@@ -7,7 +7,6 @@ def intInput(prompt):
             print("Please enter an integer.")
     return i
 
-
 age = intInput("Please enter your age: ")
 if age >= 18:
     print("adult")
