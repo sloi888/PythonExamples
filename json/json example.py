@@ -39,7 +39,7 @@ byIDFile = open("sortedByID.json", "w")
 json.dump(data, byIDFile, indent=4)
 byIDFile.close()
 
-# this time we scamble the data
+# this time we scramble the data
 random.shuffle(data)
 scrambledFile = open("scrambledData.json", "w")
 json.dump(data, scrambledFile, indent=4)
