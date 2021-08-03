@@ -6,14 +6,13 @@ tuple = ("d", "e", "f")
 
 # dictionaries are defined with {}
 dictionary = {
-    "name" : "Steven",
-    "class" : "AWS",
-    "snitch" : True
+    "name" : "Stephen",
+    "class" : "AWS"
 }
 
 for item in array:
     print(item)
 for item in tuple:
     print(item)
-for key in dictionary:
-    print(key)
+for key, value in dictionary.items():
+    print(key,value)

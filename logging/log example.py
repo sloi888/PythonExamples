@@ -2,15 +2,15 @@ import logging
 # we're logging stuff
 from datetime import date
 from datetime import datetime
-
+# datetime reference
+# https://www.programiz.com/python-programming/datetime/strftime
 now = datetime.now()
-current_time = now.strftime("%H-%M-%S")
-print("Current Time =", current_time)
+current_time = now.strftime("%m-%d-%Y at %H-%M-%S")
 # Returns the current local date
-today = date.today()
-todayString = today.strftime("%m-%d-%Y at ")
-print("Today date is: ", today)
-logFileName = "./logs/" + todayString + current_time + ".logg"
+# today = date.today()
+# todayString = today.strftime("%m-%d-%Y at ")
+# ("Today date is: ", today)
+logFileName = "./logs/" + current_time + ".txt"
 someNumber = 10
 logging.basicConfig(filename=logFileName, level=logging.DEBUG)
 logging.debug(f"number is currently {someNumber}")

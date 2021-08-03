@@ -1,5 +1,5 @@
 bananas = 5
-while bananas > -2:
+while bananas > 0:
     if bananas >= 5:
         print("large bunch")
     elif 1 <= bananas <= 4:
@@ -10,4 +10,5 @@ while bananas > -2:
         print("no bananas")
     print("You ate a banana")
     bananas -= 1
+    # bananas = bananas - 1
     print(f"You have {bananas} bananas left")
