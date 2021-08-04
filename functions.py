@@ -1,8 +1,14 @@
 def add(a, b):
     return a + b
 
+
 def multiply(a, b):
     return a * b
+
+
+def coolNumber(target, min, max):
+     if max > target > min:
+             print("That's a cool number")
 
 
 def double(a):
@@ -18,8 +24,8 @@ def square(a):
 
 
 def quadratic(a, b, c):
-    x1 = ((b * -1) + ((b * b - 4 * a * c)) ** 0.5) / (2 * a)
-    x2 = ((b * -1) - ((b * b - 4 * a * c)) ** 0.5) / (2 * a)
+    x1 = ((b * -1) + (b * b - 4 * a * c) ** 0.5) / (2 * a)
+    x2 = ((b * -1) - (b * b - 4 * a * c) ** 0.5) / (2 * a)
     return x1, x2
 
 

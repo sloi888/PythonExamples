@@ -8,6 +8,7 @@ while validFile == False:
         validFile = True
     except:
         print("File not found.")
+
 dirtySequence = targetFile.read()
 #clean the sequence by removing certain substrings
 cleanSequence = dirtySequence.replace("ORIGIN", "")
