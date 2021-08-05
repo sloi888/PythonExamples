@@ -1,5 +1,6 @@
 # python3.6
 # coding: utf-8
+# Stephen push test to Github fork (sloi888/PythonExamples)
 
 # store the human preproinsulin sequence in a variable called preproinsulin:
 preproInsulin = "malwmrllpllallalwgpdpaaafvnqhlcgshlvealylvcgergffytpktr" \
